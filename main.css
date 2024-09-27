@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .logo_li{
+        @apply hover:bg-slate-300 hover:transition-all hover:duration-75 hover:rounded-md hover:px-3
+    }
+    .logo_a{
+        @apply text-lg md:text-lg transition-all font-semibold hover:text-[#F44335] 
+    }
+    .tag_1{
+        @apply border border-[#F44335] rounded-full px-1 py-2 text-xl
+    }
+    .course{
+        @apply uppercase px-3 py-1 border border-[#000] transition-all hover:bg-[#00ff84] rounded-full w-full md:w-1/6 text-sm text-center md:text-lg
+    }
+}
